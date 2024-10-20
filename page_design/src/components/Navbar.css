@@ -1,0 +1,86 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 40px;
+    background-color: white;
+    width: 100%;
+    position: fixed; /* This makes it stick to the top */
+    top: 0;
+    left: 0;
+    z-index: 1000; /* Ensures it stays above other content */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional: adds a subtle shadow */
+  }
+  
+  /* Logo section */
+  .navbar-logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo-image {
+    height: 40px; /* Adjust this to match your logo size */
+    margin-right: 10px;
+  }
+  
+  .logo-text {
+    font-size: 20px;
+    font-weight: 600;
+    color: black;
+  }
+  
+  /* Navbar links */
+  .navbar-links {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    margin: 0;
+  }
+  
+  .navbar-links li {
+    font-size: 16px;
+    font-weight: 500;
+    color: black;
+    cursor: pointer;
+    transition: color 0.3s ease;
+  }
+  
+  .navbar-links li:hover {
+    color: #7a7a7a;
+  }
+  
+  /* Sign-in button */
+  .sign-in-btn {
+    background-color: #00ff5f;
+    border: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 10px 25px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-right: 80px; /* Added margin to move the button left */
+  }
+  
+  .sign-in-btn:hover {
+    background-color: #00e855;
+  }
+  
+  /* Sign-in button */
+  .logout-btn {
+    background-color: #ff0000;
+    border: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 10px 25px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-right: 80px; /* Added margin to move the button left */
+  }
+  
+  .logout-btn:hover {
+    background-color: #00e855;
+  }

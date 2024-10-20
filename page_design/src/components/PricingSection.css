@@ -1,0 +1,162 @@
+.pricing-container {
+    background-color: #1a1a1a;
+    color: white;
+    padding: 60px 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    margin-left: 25px;
+    border-radius: 90px;
+  }
+  
+  .pricing-table {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .pricing-table h1 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    font-weight: 500;
+  }
+  
+  .subscription-tabs {
+    background: #2a2a2a;
+    border-radius: 20px;
+    padding: 30px;
+    margin-bottom: 40px;
+  }
+  
+  .table-header {
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    margin-bottom: 20px;
+  }
+  
+  .plan-options {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  
+  .plan-tab {
+    padding: 8px 16px;
+    border-radius: 20px;
+    text-align: center;
+    font-weight: 500;
+  }
+  
+  .features-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .feature-row {
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    align-items: center;
+  }
+  
+  .feature-label {
+    color: #888;
+    font-size: 0.9rem;
+  }
+  
+  .plan-values {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    color: white;
+  }
+  
+  .plan-value {
+    text-align: center;
+  }
+  
+  .price {
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+  
+  .download-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    align-items: center;
+    padding-top: 40px;
+  }
+  
+  .download-content h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    font-weight: 500;
+  }
+  
+  .download-content p {
+    color: #888;
+    line-height: 1.6;
+    margin-bottom: 30px;
+  }
+  
+  .store-buttons {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .store-button {
+    height: 40px;
+    cursor: pointer;
+    transition: opacity 0.2s;
+  }
+  
+  .store-button:hover {
+    opacity: 0.8;
+  }
+  
+  .phone-preview {
+    text-align: right;
+  }
+  
+  .phone-image {
+    max-width: 300px;
+    height: auto;
+  }
+  
+  @media (max-width: 768px) {
+    .table-header,
+    .feature-row {
+      grid-template-columns: 150px 1fr;
+    }
+  
+    .download-section {
+      grid-template-columns: 1fr;
+      text-align: center;
+    }
+  
+    .store-buttons {
+      justify-content: center;
+    }
+  
+    .phone-preview {
+      text-align: center;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .pricing-table h1 {
+      font-size: 2rem;
+    }
+  
+    .table-header {
+      grid-template-columns: 1fr;
+      gap: 20px;
+    }
+  
+    .feature-row {
+      grid-template-columns: 1fr;
+      gap: 10px;
+    }
+  
+    .feature-label {
+      text-align: center;
+    }
+  }

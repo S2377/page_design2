@@ -1,0 +1,105 @@
+.destinations-container {
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 2rem;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  }
+  
+  .destinations-container h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .destinations-header {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    margin-bottom: 6rem;
+  }
+  
+  .header-text {
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #4a4a4a;
+  }
+  
+  .cards-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .destination-card {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .card-image-container {
+    position: relative;
+    border-radius: 60px;
+    overflow: hidden;
+  }
+  
+  .card-image-container img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+  }
+  
+  .try-now-button {
+    position: absolute;
+    top: 3rem;
+    left: 1rem;
+    background: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  .try-now-button:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .destination-card h2 {
+    font-size: 1.5rem;
+    margin: 0;
+  }
+  
+  .destination-card p {
+    color: #4a4a4a;
+    line-height: 1.5;
+    margin: 0;
+  }
+  
+  .more-destinations-button {
+    display: block;
+    margin: 2rem auto;
+    background-color: #4ade80;
+    color: black;
+    border: none;
+    padding: 1rem 2rem;
+    border-radius: 25px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  .more-destinations-button:hover {
+    background-color: #22c55e;
+  }
+  
+  @media (max-width: 768px) {
+    .destinations-header,
+    .cards-container {
+      grid-template-columns: 1fr;
+    }
+    
+    .header-text {
+      text-align: center;
+    }
+  }

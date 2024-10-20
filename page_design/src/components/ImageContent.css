@@ -1,0 +1,14 @@
+.image-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 90px;
+    margin-left: 30px;
+    width: 1850px;
+  }
+  
+  .content-image {
+    border-radius: 80px;
+    width: 100%;
+  
+  }
